@@ -4,6 +4,12 @@ module.exports = {
 		filename: "public/bundle.js"
 	},
 	module: {
+		rules: [
+      {
+        test: /\.json$/,
+        use: 'json-loader'
+      }
+    ],
 		loaders: [
 			{
 				test: /\.js$/,
