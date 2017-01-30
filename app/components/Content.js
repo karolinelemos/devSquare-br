@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '../app.css';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
 const Content = React.createClass({
   render() {
@@ -12,9 +13,9 @@ const Content = React.createClass({
           </h1>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.
+          Encontre os desenvolvedores da sua cidade, troquem experiências, vão pro bar... &#128516;
         </p>
-        <a className={styles.btn}>In progress...</a>
+        <Link to="/search" className={styles.btn}>Capturar</Link>
       </div>
     )
   }

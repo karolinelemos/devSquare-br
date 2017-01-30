@@ -68,7 +68,11 @@
 
 	var _Content2 = _interopRequireDefault(_Content);
 
-	var _Footer = __webpack_require__(241);
+	var _Search = __webpack_require__(241);
+
+	var _Search2 = _interopRequireDefault(_Search);
+
+	var _Footer = __webpack_require__(244);
 
 	var _Footer2 = _interopRequireDefault(_Footer);
 
@@ -83,6 +87,17 @@
 	      _react2.default.createElement(_GithubRibbon2.default, null),
 	      _react2.default.createElement(_Content2.default, null),
 	      _react2.default.createElement(_Footer2.default, null)
+	    );
+	  }
+	});
+
+	var Capture = _react2.default.createClass({
+	  displayName: 'Capture',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      { className: _app2.default.box },
+	      _react2.default.createElement(_Search2.default, null)
 	    );
 	  }
 	});
@@ -27025,7 +27040,7 @@
 	      null,
 	      _react2.default.createElement(
 	        'a',
-	        { href: 'https://github.com/karolinelemos' },
+	        { href: 'https://github.com/karolinelemos/devSquare-br' },
 	        _react2.default.createElement('img', { style: ribbonStyle,
 	          src: 'https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67',
 	          alt: 'Fork me on GitHub',
@@ -27072,16 +27087,23 @@
 
 
 	// module
-	exports.push([module.id, "body {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  margin: 0px;\r\n  padding: 0px;\r\n  align-items: center;\r\n}\r\n\r\n.app-___app__logo___16hgT {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: auto;\r\n}\r\n\r\n.app-___app__image___1_J9u {\r\n  width: 40px;\r\n  height: 40px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.app-___app__title___3DjT0 {\r\n  color: #000;\r\n  font-family: 'Roboto';\r\n  font-weight: 900;\r\n}\r\n\r\n.app-___app__btn___15TB- {\r\n  border-radius: 15px;\r\n  background-color: #FFDD09;\r\n  color: #000;\r\n  padding: 10px 50px;\r\n  cursor: pointer;\r\n  font-family: 'Roboto';\r\n  font-size: 15px;\r\n  font-weight: 900;\r\n  width: auto;\r\n  text-align: center;\r\n  margin-top: 10%;\r\n}\r\n\r\n.app-___app__box___1j-GT {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  width: 100%;\r\n  padding: 0 20px;\r\n  text-align: justify;\r\n}\r\n\r\n.app-___app__footer___Ofev5 {\r\n  position: absolute;\r\n  bottom: 10px;\r\n  width: 100%;\r\n  text-align: center;\r\n  font-family: 'Roboto';\r\n  font-weight: 300;\r\n  font-size: 13px;\r\n}\r\n\r\n.app-___app__footer___Ofev5 a {\r\n  text-decoration: none;\r\n  color: #000;\r\n}\r\n", ""]);
+	exports.push([module.id, "body {\r\n  width: 100%;\r\n  height: 100vh;\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  margin: 0px;\r\n  padding: 0px;\r\n  align-items: center;\r\n}\r\n\r\n.app-___app__logo___16hgT {\r\n  display: flex;\r\n  flex-direction: row;\r\n  justify-content: center;\r\n  align-items: center;\r\n  height: auto;\r\n}\r\n\r\n.app-___app__search___3h7UD {\r\n  width: 100%;\r\n  width: 100%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n}\r\n\r\n.app-___app__image___1_J9u {\r\n  width: 40px;\r\n  height: 40px;\r\n  padding-right: 20px;\r\n}\r\n\r\n.app-___app__title___3DjT0 {\r\n  color: #000;\r\n  font-family: 'Roboto';\r\n  font-weight: 900;\r\n}\r\n\r\n.app-___app__btn___15TB- {\r\n  border-radius: 15px;\r\n  background-color: #FFDD09;\r\n  color: #000;\r\n  padding: 10px 50px;\r\n  cursor: pointer;\r\n  font-family: 'Roboto';\r\n  font-size: 15px;\r\n  font-weight: 900;\r\n  width: auto;\r\n  text-align: center;\r\n}\r\n\r\n.app-___app__box___1j-GT {\r\n  display: flex;\r\n  flex-direction: column;\r\n  justify-content: center;\r\n  align-items: center;\r\n  width: 100%;\r\n  padding: 0 20px;\r\n  text-align: justify;\r\n}\r\n\r\n.app-___app__footer___Ofev5 {\r\n  position: absolute;\r\n  bottom: 10px;\r\n  width: 100%;\r\n  text-align: center;\r\n  font-family: 'Roboto';\r\n  font-weight: 300;\r\n  font-size: 13px;\r\n}\r\n\r\n.app-___app__footer___Ofev5 a {\r\n  text-decoration: none;\r\n  color: #000;\r\n}\r\n\r\n.app-___app__inputBox___3tzg4 {\r\n  display: flex;\r\n  width: 100%;\r\n  justify-content: center;\r\n  align-items: center;\r\n  flex-direction: row;\r\n}\r\n\r\n.app-___app__input___2MQ6W {\r\n  border: none;\r\n  border-bottom: 1px solid #000;\r\n  outline: none;\r\n  width: 20%;\r\n}\r\n\r\n\r\n.app-___app__goButton___1Uwfn {\r\n  border:none;\r\n  color: #000;\r\n  background-color: #FFDD09;\r\n  font-family: Roboto;\r\n  padding: 5px 40px;\r\n  border-radius: 15px;\r\n  outline: none;\r\n  cursor: pointer;\r\n}\r\n\r\n.app-___app__move___cPwA8 {\r\n  background: #fff;\r\n\twidth: 21ch;\r\n  margin: 0.5ch;\r\n  padding: 20px 1ch;\r\n  display: block;\r\n\twhite-space: nowrap;\r\n  font-family: Roboto;\r\n  font-size: 20px;\r\n  font-weight: 300;\r\n\toverflow: hidden;\r\n\t-webkit-animation: app-___app__digitacao___2Ho_a 1.7s steps(28, end), app-___app__barra___2iinU .1s step-end infinite alternate;\r\n}\r\n\r\n@-webkit-keyframes app-___app__digitacao___2Ho_a {\r\n    0% { width: 0; }\r\n}\r\n\r\n@-webkit-keyframes app-___app__barra___2iinU {\r\n    100% { border-color: transparent; }\r\n}\r\n", ""]);
 
 	// exports
 	exports.locals = {
 		"logo": "app-___app__logo___16hgT",
+		"search": "app-___app__search___3h7UD",
 		"image": "app-___app__image___1_J9u",
 		"title": "app-___app__title___3DjT0",
 		"btn": "app-___app__btn___15TB-",
 		"box": "app-___app__box___1j-GT",
-		"footer": "app-___app__footer___Ofev5"
+		"footer": "app-___app__footer___Ofev5",
+		"inputBox": "app-___app__inputBox___3tzg4",
+		"input": "app-___app__input___2MQ6W",
+		"goButton": "app-___app__goButton___1Uwfn",
+		"move": "app-___app__move___cPwA8",
+		"digitacao": "app-___app__digitacao___2Ho_a",
+		"barra": "app-___app__barra___2iinU"
 	};
 
 /***/ },
@@ -27409,6 +27431,8 @@
 
 	var _app2 = _interopRequireDefault(_app);
 
+	var _reactRouter = __webpack_require__(179);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var Content = _react2.default.createClass({
@@ -27430,12 +27454,12 @@
 	      _react2.default.createElement(
 	        'p',
 	        null,
-	        'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.'
+	        'Encontre os desenvolvedores da sua cidade, troquem experi\xEAncias, v\xE3o pro bar... \uD83D\uDE04'
 	      ),
 	      _react2.default.createElement(
-	        'a',
-	        { className: _app2.default.btn },
-	        'In progress...'
+	        _reactRouter.Link,
+	        { to: '/search', className: _app2.default.btn },
+	        'Capturar'
 	      )
 	    );
 	  }
@@ -27445,6 +27469,195 @@
 
 /***/ },
 /* 241 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _app = __webpack_require__(236);
+
+	var _app2 = _interopRequireDefault(_app);
+
+	var _Input = __webpack_require__(242);
+
+	var _Input2 = _interopRequireDefault(_Input);
+
+	var _GithubRibbon = __webpack_require__(235);
+
+	var _GithubRibbon2 = _interopRequireDefault(_GithubRibbon);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var Search = _react2.default.createClass({
+	  displayName: 'Search',
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      { className: _app2.default.search },
+	      _react2.default.createElement(_GithubRibbon2.default, null),
+	      _react2.default.createElement(
+	        'h1',
+	        { className: _app2.default.move },
+	        'Digite o nome da cidade:'
+	      ),
+	      _react2.default.createElement(_Input2.default, null)
+	    );
+	  }
+	});
+
+	exports.default = Search;
+
+/***/ },
+/* 242 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _app = __webpack_require__(236);
+
+	var _app2 = _interopRequireDefault(_app);
+
+	var _Data = __webpack_require__(243);
+
+	var _Data2 = _interopRequireDefault(_Data);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Input = function (_Component) {
+	  _inherits(Input, _Component);
+
+	  function Input(props) {
+	    _classCallCheck(this, Input);
+
+	    var _this = _possibleConstructorReturn(this, (Input.__proto__ || Object.getPrototypeOf(Input)).call(this, props));
+
+	    _this.handleSubmit = _this.handleSubmit.bind(_this);
+	    return _this;
+	  }
+
+	  _createClass(Input, [{
+	    key: 'handleSubmit',
+	    value: function handleSubmit(e) {
+	      e.preventDefault();
+	      function Get(yourUrl) {
+	        var Httpreq = new XMLHttpRequest(); // a new request
+	        Httpreq.open("GET", yourUrl, false);
+	        Httpreq.send(null);
+	        return Httpreq.responseText;
+	      }
+
+	      var jsonObj = JSON.parse(Get('../public/data.json'));
+	      console.log(jsonObj);
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        { className: _app2.default.inputBox },
+	        _react2.default.createElement(
+	          'form',
+	          { onSubmit: this.handleSubmit, className: _app2.default.inputBox },
+	          _react2.default.createElement('input', { className: _app2.default.input, type: 'text', ref: 'city', autoFocus: true }),
+	          _react2.default.createElement(
+	            'button',
+	            { className: _app2.default.goButton, type: 'submit' },
+	            ' Go '
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Input;
+	}(_react.Component);
+
+	;
+
+	exports.default = Input;
+
+/***/ },
+/* 243 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Data = function (_Component) {
+	  _inherits(Data, _Component);
+
+	  function Data() {
+	    _classCallCheck(this, Data);
+
+	    return _possibleConstructorReturn(this, (Data.__proto__ || Object.getPrototypeOf(Data)).apply(this, arguments));
+	  }
+
+	  _createClass(Data, [{
+	    key: 'Get',
+	    value: function Get(yourUrl) {
+	      var Httpreq = new XMLHttpRequest(); // a new request
+	      Httpreq.open("GET", yourUrl, false);
+	      Httpreq.send(null);
+	      return Httpreq.responseText;
+	    }
+	  }, {
+	    key: 'getByCity',
+	    value: function getByCity(city) {
+	      //  return axios.get(`../public/data.json`);
+	      var jsonObj = JSON.parse(Get('../public/data.json'));
+	      console.log("this is the author name: " + jsonObj);
+	    }
+	  }]);
+
+	  return Data;
+	}(_react.Component);
+
+	;
+
+	exports.default = Data;
+
+/***/ },
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';

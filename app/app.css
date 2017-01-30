@@ -17,6 +17,14 @@ body {
   height: auto;
 }
 
+.search {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .image {
   width: 40px;
   height: 40px;
@@ -40,7 +48,6 @@ body {
   font-weight: 900;
   width: auto;
   text-align: center;
-  margin-top: 10%;
 }
 
 .box {
@@ -66,4 +73,53 @@ body {
 .footer a {
   text-decoration: none;
   color: #000;
+}
+
+.inputBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  width: 20%;
+}
+
+
+.goButton {
+  border:none;
+  color: #000;
+  background-color: #FFDD09;
+  font-family: Roboto;
+  padding: 5px 40px;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.move {
+  background: #fff;
+	width: 21ch;
+  margin: 0.5ch;
+  padding: 20px 1ch;
+  display: block;
+	white-space: nowrap;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+	overflow: hidden;
+	-webkit-animation: digitacao 1.7s steps(28, end), barra .1s step-end infinite alternate;
+}
+
+@-webkit-keyframes digitacao {
+    0% { width: 0; }
+}
+
+@-webkit-keyframes barra {
+    100% { border-color: transparent; }
 }

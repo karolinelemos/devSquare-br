@@ -1,7 +1,7 @@
 {
-  "name": "github-info-react",
+  "name": "devSquare-br",
   "version": "1.0.0",
-  "description": "#### My first app to learn React",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
