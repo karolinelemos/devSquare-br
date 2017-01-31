@@ -1,0 +1,97 @@
+.cardBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 100px;
+  position: absolute;
+  overflow: auto;
+  align-items: center;
+}
+
+.card {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #2B2B2B;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.20);
+  padding: 20px 10px;
+  height: 310px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: auto;
+}
+
+.card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profileImage img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  border-radius: 50%;
+  max-width: 40%;
+}
+
+.card figcaption {
+  padding: 5% 10% 15%;
+}
+
+.card h3 {
+  font-family: 'Roboto';
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 3px 0;
+}
+
+.h5 {
+  width: 100%;
+  border: 0.5px solid #D6D6D6;
+}
+
+.social {
+  position: absolute;
+  bottom: 10px;
+}
+
+.social a {
+    text-decoration: none;
+    padding: 8px;
+    color: #000;
+}
+
+.social a:hover {
+    background: #D6D6D6;
+}
+
+.result {
+  text-align: center;
+  padding: 20px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:800px) {
+  .card {
+    margin-left: -17px;
+  }
+
+  .cardBox {
+    padding: 0px;
+  }
+}

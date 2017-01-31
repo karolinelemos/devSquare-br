@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import info from './info.js';
+import GithubUser from './GitHubUser';
 
 const Data = {
   getByCity(d) {
@@ -8,8 +9,17 @@ const Data = {
       return user.city == cityName ? user : null;
     });
     const byCity = [];
-    a.map(function(user) { if(user) byCity.push(user); });
-    return byCity;
+    a.map(function(user) {
+       if(user) {
+         byCity.push(user);
+         GithubUser.getByUsername(user.githubUsername).then((response) => {
+            user.avatar = response.data.avatar_url;
+            user.github = response.data.html_url;
+            user.bio = response.data.bio;
+          });
+       }
+     });
+     return byCity;
   }
 };
 

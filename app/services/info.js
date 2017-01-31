@@ -4,39 +4,35 @@
 const info = [
   {
     'name': 'Karoline Lemos',
-    'description': 'faz tal coisa',
     'city': 'Joinville',
     'state': 'SC',
     'facebookLink': 'www.facebook.com',
     'twitterLink': 'www.twitter.com',
-    'githubLink': 'www.github.com'
+    'githubUsername': 'karolinelemos'
   },
   {
     'name': 'João',
-    'description': 'faz tal coisa',
-    'city': 'Florianópolis',
-    'state': 'SC',
-    'facebookLink': 'www.facebook.com',
-    'twitterLink': 'www.twitter.com',
-    'githubLink': 'www.github.com'
-  },
-  {
-    'name': 'Maria',
-    'description': 'faz tal coisa',
     'city': 'Joinville',
     'state': 'SC',
     'facebookLink': 'www.facebook.com',
     'twitterLink': 'www.twitter.com',
-    'githubLink': 'www.github.com'
+    'githubUsername': 'joao'
+  },
+  {
+    'name': 'Maria',
+    'city': 'Joinville',
+    'state': 'SC',
+    'facebookLink': 'www.facebook.com',
+    'twitterLink': 'www.twitter.com',
+    'githubUsername': 'maria'
   },
   {
     'name': 'José',
-    'description': 'faz tal coisa',
-    'city': 'São Paulo',
+    'city': 'Joinville',
     'state': 'SP',
     'facebookLink': 'www.facebook.com',
     'twitterLink': 'www.twitter.com',
-    'githubLink': 'www.github.com'
+    'githubUsername': 'jose'
   },
 ];
 

@@ -9,6 +9,7 @@ body {
   margin: 0px;
   padding: 0px;
   align-items: center;
+  background: #f6f6f6;
 }
 
 .logo {
@@ -55,7 +56,6 @@ body {
 .box {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
   padding: 0 20px;
@@ -131,4 +131,18 @@ body {
 
 @-webkit-keyframes barra {
     100% { border-color: transparent; }
+}
+
+@media screen and (min-width:320px) and (max-width:800px) {
+  .search {
+    padding-top: 100px;
+  }
+
+  .input {
+    width: 50%;
+  }
+
+  .goButton {
+    adding: 5px 20px;
+  }
 }

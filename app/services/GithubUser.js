@@ -1,9 +1,9 @@
 import axios from 'axios';
 
-const GitHubUser = {
+const GithubUser = {
   getByUsername(username) {
     return axios.get(`https://api.github.com/users/${username}`);
   }
 };
 
-export default GitHubUser;
+export default GithubUser;
