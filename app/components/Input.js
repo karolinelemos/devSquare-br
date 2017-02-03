@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import styles from '../app.css';
 import Data from '../services/Data';
 import Cards from './card/Cards';
@@ -21,7 +22,7 @@ class Input extends Component {
         <div className={styles.inputBox}>
           <form onSubmit={this.handleSubmit} className={styles.inputBox}>
             <input className={styles.input} type="text" ref="city" placeholder="Ex: Joinville" autoFocus/>
-            <button className={styles.goButton} type="submit"> GO </button>
+            <Link to='search' className={styles.goButton} type="submit"> GO </Link>
           </form>
         </div>
         <div className={styles.boxCard}>
@@ -31,5 +32,9 @@ class Input extends Component {
     );
   }
 };
+
+Input.propTypes = {
+  info: React.PropTypes.object
+}
 
 export default Input;

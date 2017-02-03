@@ -11,12 +11,12 @@ const info = [
     'githubUsername': 'karolinelemos'
   },
   {
-    'name': 'João',
+    'name': 'Bruno Lima',
     'city': 'Joinville',
     'state': 'SC',
     'facebookLink': 'www.facebook.com',
     'twitterLink': 'www.twitter.com',
-    'githubUsername': 'joao'
+    'githubUsername': 'blsdotrocks'
   },
   {
     'name': 'Maria',

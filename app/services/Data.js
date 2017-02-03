@@ -11,11 +11,11 @@ const Data = {
     const byCity = [];
     a.map(function(user) {
        if(user) {
-         byCity.push(user);
          GithubUser.getByUsername(user.githubUsername).then((response) => {
             user.avatar = response.data.avatar_url;
             user.github = response.data.html_url;
             user.bio = response.data.bio;
+            byCity.push(user);
           });
        }
      });

@@ -30,6 +30,15 @@ const Capture = React.createClass({
 })
 
 ReactDOM.render(
-  <Home />,
+  <Router history={browserHistory}>
+        <Route
+            component={Home}
+            path="/public"
+        />
+        <Route
+            component={Capture}
+            path="/search"
+        />
+    </Router>,
 	document.getElementById('app')
 );

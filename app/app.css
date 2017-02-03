@@ -53,13 +53,17 @@ body {
   text-align: center;
 }
 
-.box {
+.box, .boxHome {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
   padding: 0 20px;
   text-align: justify;
+}
+
+.boxHome {
+  margin-top: 15%;
 }
 
 .footer {
@@ -98,6 +102,7 @@ body {
   border-bottom: 1px solid #000;
   outline: none;
   width: 20%;
+  background-color: #f6f6f6;
 }
 
 .goButton {
@@ -112,7 +117,7 @@ body {
 }
 
 .move {
-  background: #fff;
+  background: #f6f6f6;
 	width: 21ch;
   margin: 0.5ch;
   padding: 20px 1ch;
@@ -144,5 +149,9 @@ body {
 
   .goButton {
     adding: 5px 20px;
+  }
+
+  .boxHome {
+    margin-top: 40%;
   }
 }

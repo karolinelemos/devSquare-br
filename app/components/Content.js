@@ -5,7 +5,7 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 const Content = React.createClass({
   render() {
     return (
-      <div className={styles.box}>
+      <div className={styles.boxHome}>
         <div className={styles.logo}>
           <img className={styles.image} src="http://i.imgur.com/fk27KC2.png" />
           <h1 className={styles.title}>
